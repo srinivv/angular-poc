@@ -7,7 +7,4 @@ exports.createRoutes = function (app,dataModel) {
 			res.send(categories);
 		});	
 	});	
-	
-	
-	
 }
