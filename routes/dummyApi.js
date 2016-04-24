@@ -49,7 +49,7 @@ var detailsJSON = {
 
 
 var detailedProfile ={
-		"karthikrenkarajan" : {"name": "Karthik Renkarajan","movie" : "Nayagan" , "childhood" : "Agraharam" , "sports" :"Cricket" ,"place" : "Srirangam","music" :"MS Subbulakshmi" ,"moviestar" :"Rajnikanth" },
+		"srini" : {"name": "Srini Velusamy","movie" : "Nayagan" , "childhood" : "Agraharam" , "sports" :"Cricket" ,"place" : "Srirangam","music" :"MS Subbulakshmi" ,"moviestar" :"Rajnikanth" },
 		"sukiyung" : {"name": "Suki Yang","movie" : "BodyGuard and assassins" , "childhood" : "Shanghai" , "sports" :"Boxing" ,"place" : "Shanghai","music" :"Cantoneses" ,"moviestar" :"Jackie Chan"  },
 		"altonm" : {"name": "Alton Mathews","movie" : "Nayagan" , "childhood" : "Agraharam" , "sports" :"Cricket" ,"place" : "Srirangam","music" :"MS Subbulakshmi" ,"moviestar" :"Rajnikanth" },
 		"pthiel" : {"name": "Peter Theil","movie" : "Nayagan" , "childhood" : "Agraharam" , "sports" :"Cricket" ,"place" : "Srirangam","music" :"MS Subbulakshmi" ,"moviestar" :"Rajnikanth" },
@@ -60,7 +60,7 @@ var detailedProfile ={
 };
 
 
-var featuredProfiles = [{"id":'karthikrenkarajan' , "name" : "Karthik Renkarajan" ,"cat":"movie" ,"postid":"100","postTitle" : "The Don in Mumbai - Nayagan"},
+var featuredProfiles = [{"id":'srini' , "name" : "Srini Velusamy" ,"cat":"movie" ,"postid":"100","postTitle" : "The Don in Mumbai - Nayagan"},
                         {"id":'sukiyung' , "name" : "Suki" , "cat":"movie" ,"postid":"200","postTitle" : "BodyGuard and assassins"},
                         {"id":'altonm' , "name" : "Alton Mathews","cat":"place" ,"postid":"102","postTitle" : "Ten reasons why you should travel, or why the city is killing your inner creative"},
                         {"id":'pthiel' , "name" : "Peter Thiel" ,"cat":"moviestar" ,"postid":"103","postTitle" : "Feature List"},               
@@ -68,23 +68,23 @@ var featuredProfiles = [{"id":'karthikrenkarajan' , "name" : "Karthik Renkarajan
 
 
 var post = {
-		"karthikrenkarajan_100" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"movie","catTitle" :"Nayagan" , "postTitle" : "The Don in Mumbai - Nayagan" ,"postid" : "100", "imgurl": 'assets/img/seed/karthikrenkarajan/movie/profile_pic.jpg'},
-		"karthikrenkarajan_101" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"place","catTitle" :"Srirangam" , "postTitle" : "Bhoologa Vaikundam" ,"postid" : "101", "imgurl": 'assets/img/seed/karthikrenkarajan/place/profile_pic.jpg'},
-		"karthikrenkarajan_102" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"moviestar","catTitle" :"Rajnikanth" , "postTitle" : "Thalaivaa" ,"postid" : "102", "imgurl": 'assets/img/seed/karthikrenkarajan/moviestar/profile_pic.jpg'},
-		"karthikrenkarajan_103" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"music","catTitle" :"Nightingale of South India" , "postTitle" : "M S Subbulakshmi" ,"postid" : "103", "imgurl": 'assets/img/seed/karthikrenkarajan/music/profile_pic.jpg'},
-		"karthikrenkarajan_104" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"sports","catTitle" :"Cricket" , "postTitle" : "Gentleman's Game" ,"postid" : "104", "imgurl": 'assets/img/seed/karthikrenkarajan/sports/profile_pic.jpg'},
-		"karthikrenkarajan_105" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"childhood","catTitle" :"Agraharam" , "postTitle" : "Childhood Well Spent" ,"postid" : "105", "imgurl": 'assets/img/seed/karthikrenkarajan/childhood/profile_pic.jpg'},
+		"srini_100" : {"username": "Srini Velusamy","userid":"srini","cat":"movie","catTitle" :"Nayagan" , "postTitle" : "The Don in Mumbai - Nayagan" ,"postid" : "100", "imgurl": 'assets/img/seed/srini/movie/profile_pic.jpg'},
+		"srini_101" : {"username": "Srini Velusamy","userid":"srini","cat":"place","catTitle" :"Srirangam" , "postTitle" : "Bhoologa Vaikundam" ,"postid" : "101", "imgurl": 'assets/img/seed/srini/place/profile_pic.jpg'},
+		"srini_102" : {"username": "Srini Velusamy","userid":"srini","cat":"moviestar","catTitle" :"Rajnikanth" , "postTitle" : "Thalaivaa" ,"postid" : "102", "imgurl": 'assets/img/seed/srini/moviestar/profile_pic.jpg'},
+		"srini_103" : {"username": "Srini Velusamy","userid":"srini","cat":"music","catTitle" :"Nightingale of South India" , "postTitle" : "M S Subbulakshmi" ,"postid" : "103", "imgurl": 'assets/img/seed/srini/music/profile_pic.jpg'},
+		"srini_104" : {"username": "Srini Velusamy","userid":"srini","cat":"sports","catTitle" :"Cricket" , "postTitle" : "Gentleman's Game" ,"postid" : "104", "imgurl": 'assets/img/seed/srini/sports/profile_pic.jpg'},
+		"srini_105" : {"username": "Srini Velusamy","userid":"srini","cat":"childhood","catTitle" :"Agraharam" , "postTitle" : "Childhood Well Spent" ,"postid" : "105", "imgurl": 'assets/img/seed/srini/childhood/profile_pic.jpg'},
 		"sukiyung_200" : {"username": "Suki Yang","userid":"sukiyung","cat":"movie","catTitle" :"BodyGuard and assassins" , "postTitle" : "BodyGuard and assassins" ,"postid" : "200", "imgurl": 'assets/img/seed/sukiyung/movie/profile_pic.jpg'},
 }
 
 
 var categoryToPostMapping = {
-		"karthikrenkarajan_movie" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"movie","catTitle" :"Nayagan" , "postTitle" : "The Don in Mumbai - Nayagan","postid" : '100'},		
-		"karthikrenkarajan_place" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"place","catTitle" :"Srirangam" , "postTitle" : "Bhoologa Vaikundam","postid" : '101'},
-		"karthikrenkarajan_moviestar" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"moviestar","catTitle" :"Rajnikanth" , "postTitle" : "Thalaivaa","postid" : '102'},
-		"karthikrenkarajan_music" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"music","catTitle" :"Nightingale of South India" , "postTitle" : "M S Subbulakshmi","postid" : '103'},
-		"karthikrenkarajan_sports" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"sports","catTitle" :"Cricket" , "postTitle" : "Gentleman's Game","postid" : '104'},
-		"karthikrenkarajan_childhood" : {"username": "Karthik Renkarajan","userid":"karthikrenkarajan","cat":"childhood","catTitle" :"Agraharam" , "postTitle" : "Childhood Well Spent","postid" : '105'},
+		"srini_movie" : {"username": "Srini Velusamy","userid":"srini","cat":"movie","catTitle" :"Nayagan" , "postTitle" : "The Don in Mumbai - Nayagan","postid" : '100'},		
+		"srini_place" : {"username": "Srini Velusamy","userid":"srini","cat":"place","catTitle" :"Srirangam" , "postTitle" : "Bhoologa Vaikundam","postid" : '101'},
+		"srini_moviestar" : {"username": "Srini Velusamy","userid":"srini","cat":"moviestar","catTitle" :"Rajnikanth" , "postTitle" : "Thalaivaa","postid" : '102'},
+		"srini_music" : {"username": "Srini Velusamy","userid":"srini","cat":"music","catTitle" :"Nightingale of South India" , "postTitle" : "M S Subbulakshmi","postid" : '103'},
+		"srini_sports" : {"username": "Srini Velusamy","userid":"srini","cat":"sports","catTitle" :"Cricket" , "postTitle" : "Gentleman's Game","postid" : '104'},
+		"srini_childhood" : {"username": "Srini Velusamy","userid":"srini","cat":"childhood","catTitle" :"Agraharam" , "postTitle" : "Childhood Well Spent","postid" : '105'},
 		"sukiyung_movie" : {"username": "Suki Yang","userid":"sukiyung","cat":"movie","catTitle" :"BodyGuard and assassins" , "postTitle" : "BodyGuard and assassins","postid" : '200'},
 }
 

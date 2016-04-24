@@ -104,7 +104,7 @@
 .medium-editor-insert-plugin.medium-editor-placeholder:after {
   content: attr(data-placeholder) !important;
   top: 1em; }
-/** Karthik Chnages
+/** 
 .mediumInsert {
   position: relative;
   margin-left: -40px !important;

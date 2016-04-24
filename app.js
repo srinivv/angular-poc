@@ -22,7 +22,7 @@ app.use(express.static(__dirname + '/webapp'));
 
 /*//http://www.jeff.wilcox.name/2011/10/node-express-imagemagick-square-resizing/
 im.resize({
-    srcData : fs.readFileSync('webapp/assets/img/seed/karthikrenkarajan/place/profile_pic.jpg', 'binary'),
+    srcData : fs.readFileSync('webapp/assets/img/seed/srini/place/profile_pic.jpg', 'binary'),
     strip : false,
     width : 368,
     height : "620^",
@@ -32,7 +32,7 @@ im.resize({
         ]
 }, function(err, stdout, stderr){
   if (err) throw err
-  fs.writeFileSync('webapp/assets/img/seed/karthikrenkarajan/place/profile_pic_modified.jpg', stdout, 'binary');
+  fs.writeFileSync('webapp/assets/img/seed/srini/place/profile_pic_modified.jpg', stdout, 'binary');
   console.log('resized profile_pic.jpg to fit within 368px 620px')
 });*/
 

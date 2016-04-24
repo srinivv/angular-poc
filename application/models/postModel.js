@@ -17,8 +17,8 @@ var PostDummy = new Post({
 	postid: '230293',
 	postTitle: 'First post creating post model',
 	postHeroTitle: '',
-	userid : 'karthikrenkarajan',
-	postBody : 'Karthik adding this to html',
+	userid : 'srini',
+	postBody : 'Srini adding this to html',
 	cat:'10003'
 });
 
@@ -63,7 +63,6 @@ var postModel = {
 			});
 	    },
 	    /***
-	     * @author krenkara
 	     * Get all the posts for this user for a given category
 	     */
 	    getUserPostByCategoryId: function(userid,catid,callback)
@@ -79,7 +78,6 @@ var postModel = {
 			});
 	    },	    
 	    /***
-	     * @author krenkara
 	     * Get All the post for this category.Not user specific
 	     */
 	    getAllPostByCategoryId: function(catid,callback)
@@ -96,14 +94,13 @@ var postModel = {
 	    },
 	    
 	    /***
-	     * @author krenkara
 	     * Save a new post
 	     */
 	    saveNewPost: function(postTemp,callback)
 	    {
 	    	var newPost = new Post({
 			    		  postTitle : postTemp.postTitle,
-			    		  userid : 'karthikrenkarajan',
+			    		  userid : 'srini',
 			    		  postBody : postTemp.postContent,
 			    		  postHeroTitle : postTemp.postHeroTitle,
 			    		  cat : postTemp.categoryId,  	
@@ -118,7 +115,6 @@ var postModel = {
 			});
 	    },
 	    /***
-	     * @author krenkara
 	     * Update a new post
 	     */
 	    updatePost: function(postTemp,callback)

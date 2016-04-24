@@ -10,9 +10,9 @@ var User = mongoose.model('users', userSchema);
 
 
 /*var UserDummy = new User({
-		email: 'karthik.renkarajan@gmail.com',
-		userid: 'karthikrenkarajan',
-		name: 'Karthik Renkarajan'	
+		email: 'srinivv@gmail.com',
+		userid: 'srini',
+		name: 'srini velusamy'	
 	});
 
 UserDummy.save(function(err, thor) {
@@ -26,7 +26,6 @@ UserDummy.save(function(err, thor) {
  */
 var UserModel = {		
 		/** 
-		 * @author krenkara
 		 * Get User details.
 		 */
 		getUserDetails: function(userid,callback)

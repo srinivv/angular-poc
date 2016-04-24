@@ -39,7 +39,6 @@ var  categoryModel = {
 			});
 	    },
 	    /***
-	     * @author krenkara
 	     * Find category Id 
 	     */
 	    getCategoryById: function(catid,callback)

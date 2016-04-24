@@ -28,14 +28,14 @@ define(['application-configuration','ajaxService'], function (app) {
         //Add a new Post.
         $scope.newPostInit = function(){   
         	//For the new post ,get the userid from the url
-        	$scope.userid = 'karthikrenkarajan';        	
+        	$scope.userid = 'srini';        	
         	var data = {'userid': $scope.userid};
         	//Generate new post id
         	ajaxService.AjaxGetWithData(data, "/api/generatePostId", function(data){
         		var temp = data._id;        		
         		$scope.newpostid = temp.valueOf();
         		console.log("New Post Id Generated" , $scope.newpostid);        	
-        		var path = '/post/karthikrenkarajan/'+  $scope.newpostid;
+        		var path = '/post/srini/'+  $scope.newpostid;
         		console.log("path: " , path);
         		$location.path( path, false );
         		initializeEditorsNewPost($scope.newpostid);
